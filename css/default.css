@@ -389,7 +389,7 @@ th:not([align]) {
   text-align: left;
 }
 html {
-  background-color: #fff;
+  background-color: #f7f7f7;
   font-size: 14px;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -11355,4 +11355,13 @@ figure.highlight .section {
 }
 .icon-bilibili:before {
   content: "\e6b4";
+}
+.is-2-column {
+  background-image: url("https://blog.mchook.cn/img/background.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #999;
+  opacity: 0.8;
 }
