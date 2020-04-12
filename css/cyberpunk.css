@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;600&family=Roboto+Mono");
+@import url("https://cdn.bootcss.com/webfont/1.6.28/webfontloader.js");
 @-moz-keyframes spinAround {
   from {
     transform: rotate(0deg);
