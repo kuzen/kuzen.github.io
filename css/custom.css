@@ -4,8 +4,6 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-color: #999;
-  opacity: 0.8;
 }
 .widget {
   background-color: rgba(255,255,255,0.812);
