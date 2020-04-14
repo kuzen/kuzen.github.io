@@ -4,6 +4,7 @@ $(document).ready(() => {
     const $mainColumn = $('.column-main');
     const $leftSidebar = $('.column-left');
     const $rightSidebar = $('.column-right');
+    const $bg = $('.is-2-column');
     let lastScrollTop = 0;
     const rightMargin = 20;
     const bottomMargin = 20;
@@ -144,5 +145,9 @@ $(document).ready(() => {
 
     $('#back-to-top').on('click', () => {
         $('body, html').animate({ scrollTop: 0 }, 400);
+    });
+
+    $('.section').on('click', () => {
+        $('.is-2-column').css('background-image', 'url(https://api.ixiaowai.cn/api/api.php)');
     });
 });
