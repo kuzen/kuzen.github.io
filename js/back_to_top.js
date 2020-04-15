@@ -148,6 +148,7 @@ $(document).ready(() => {
     });
 
     $('.section').on('click', () => {
-        $('.is-2-column').css('background-image', 'url(https://api.ixiaowai.cn/api/api.php)');
+		var timestamp = Date.parse(new  Date());
+        $('.is-2-column').css('background-image', 'url(https://api.ixiaowai.cn/api/api.php?timestamp='+timestamp+')');
     });
 });
