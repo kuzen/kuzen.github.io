@@ -15,9 +15,9 @@ $(document).ready(() => {
 
     try {
         $('body').ripples({
-            resolution: 256,  //分辨率
-            dropRadius: 10,   //半径 单位像素
-            perturbance: 0.01,//扰动
+            resolution: 128,
+            dropRadius: 10,
+            perturbance: 0.01,
         });
     }
     catch (e) {
