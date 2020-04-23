@@ -13,15 +13,5 @@ $(document).ready(() => {
         $('.is-2-column').css('background-image', 'url(https://api.ixiaowai.cn/api/api.php?timestamp='+timestamp+')');
     });
 
-    try {
-        $('body').ripples({
-            resolution: 128,
-            dropRadius: 10,
-            perturbance: 0.01,
-        });
-    }
-    catch (e) {
-        $('.error').show().text(e);
-    }
 
 });
